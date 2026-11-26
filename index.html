@@ -180,7 +180,7 @@
     /* 상영관 3개 관 분반 배지 */
     .theater-split-3 {
       display: grid;
-      grid-template-columns: 1fr 1fr 1.42fr;
+      grid-template-columns: 1fr 1.15fr 1.35fr;
       gap: 6px;
       margin-top: 10px;
     }
@@ -209,7 +209,7 @@
       letter-spacing: -0.4px;
       white-space: nowrap;
     }
-    /* 변경된 4상영관 시각적 강조 (민트·하늘색 박스 + 짙은 네이비 글씨 + 빨간 변경 배지) */
+    /* 변경된 상영관 시각적 강조 (민트·하늘색 박스 + 짙은 네이비 글씨 + 빨간 변경 배지) */
     .theater-box.theater-highlight {
       background: #e3fafc;
       border: 2px solid #22b8cf;
@@ -220,7 +220,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 4px;
+      gap: 3px;
     }
     .theater-box.theater-highlight .t-classes {
       color: #102a43;
@@ -228,9 +228,9 @@
     .change-tag {
       background: #e03131;
       color: #ffffff;
-      font-size: 9.5px;
+      font-size: 9px;
       font-weight: 800;
-      padding: 1.5px 5px;
+      padding: 1.5px 4.5px;
       border-radius: 8px;
       line-height: 1.2;
     }
@@ -691,8 +691,8 @@
             <span class="t-title">1 상영관</span>
             <span class="t-classes">4반 · 5반</span>
           </div>
-          <div class="theater-box">
-            <span class="t-title">2 상영관</span>
+          <div class="theater-box theater-highlight">
+            <span class="t-title">3 상영관 <span class="change-tag">변경</span></span>
             <span class="t-classes">2반 · 6반</span>
           </div>
           <div class="theater-box theater-highlight">
@@ -870,7 +870,7 @@
           </div>
           <div class="bubble-col">
             <div class="speech-bubble tree-bubble">
-              <div class="editable-bubble">🙋‍♂️ 출석 체크를 완료 후, 질서를 지켜 올라갑니다.</div>
+              <div class="editable-bubble">🙋‍♂️ 출석 체크 완료 후, 질서를 지켜 올라갑니다.&nbsp;</div>
               
             </div>
           </div>
@@ -942,7 +942,7 @@
           </div>
           <div class="bubble-col">
             <div class="speech-bubble">
-              <div class="editable-bubble">🚶‍♂️ 계단 폭이 좁으니 (한 사람 폭) 절대 뛰거나 추월하지 말고 한 줄로 천천히 올라갑니다.</div>
+              <div class="editable-bubble">🚶‍♂️ 계단 폭이 좁으니(한 사람 폭) 절대 뛰거나 추월하지 말고 한 줄로 천천히 올라갑니다.</div>
               
             </div>
           </div>
@@ -965,7 +965,7 @@
           </div>
           <div class="bubble-col">
             <div class="speech-bubble">
-              <div class="editable-bubble">🎬 3층 영화관에서 간식 구매 (09:15부터 구매 가능) 및 화장실 이용 후, 09:45부터 본인 학급 상영관으로 입장합니다!<br>🍿 단체 관람으로 팝콘 할인! 키오스크에서 단체 할인 팝콘 메뉴를 확인하세요!</div>
+              <div class="editable-bubble">🎬 3층 영화관에서 간식 구매(09:15부터 가능) 및 화장실 이용 후, 09:45부터 선생님 안내에 따라 본인 학급의 상영관으로 이동하세요.</div>
               
             </div>
           </div>
@@ -997,7 +997,7 @@
           </div>
           <div class="bubble-col">
             <div class="speech-bubble blue-bubble">
-              <div class="editable-bubble">🚻 화장실과 매점은 3층 매표소 바로 옆 쪽에 함께 있습니다! 입장 전 미리 다녀오세요.</div>
+              <div class="editable-bubble">🍿단체 관람으로 팝콘 할인!<br>키오스크에서 단체 할인 팝콘 메뉴를 확인하세요!<br>🚻 화장실과 매점은 3층 매표소 바로 옆쪽에 함께 있습니다! 입장 전 미리 다녀오세요.</div>
               
             </div>
           </div>
@@ -1061,7 +1061,7 @@
           </div>
           <div class="bubble-col">
             <div class="speech-bubble">
-              <div class="editable-bubble">🍔 1층 크리스마스 트리 있는 곳에서 상영관 별로 '햄버거'를 수령한 뒤 귀가합니다!<br>💁‍♀️ 1상영관부터 퇴장하여 질서 있게 수령해주세요!<br>📢 '쉬림프싸이플렉스버거'로 알러지가 있는 경우 섭취에 주의하세요!</div>
+              <div class="editable-bubble">🍔 1층 크리스마스 트리 있는 곳에서 상영관 별로 '햄버거'를 수령한 뒤 귀가합니다!<br>📢 1 상영관부터 퇴장하여 질서 있게 수령해주세요!<br>⚠️ 햄버거는 '쉬림프<br>싸이플렉스버거'로<br>알러지가 있는 경우<br>주의하세요!</div>
               
             </div>
           </div>
